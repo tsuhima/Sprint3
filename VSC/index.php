@@ -36,7 +36,64 @@ include("api.php");
 					<?php
 					}
 					?>
-				</div>						
+				</div>	
+				
+				.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: red;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
+</head>
+<body>
+
+
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a class="active" href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+				</div>					
+			</div>
+		</div>
+	</div>	
+
+<div>
+<style>
+
+.main_content h3
+{
+	font-size:16px;
+	margin-bottom:10px;
+}
+.main_content p
+{
+	line-height:30px;
+	font-size:14px;
+	padding-left:20px;
+}
+.main_content .readmore
+{
+	text-decoration:none !important;	
+}
+</style>
 			</div>
 		</div>
 	</div>	
@@ -61,3 +118,4 @@ include("api.php");
 	text-decoration:none !important;	
 }
 </style>
+</div>
