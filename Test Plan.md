@@ -43,19 +43,21 @@ The approach to test the features would be by using integration testing and docu
 
 To check the pass/fail criteria, all the required features will be tested. If any feature or requirement is not meeting the criteria, then the test case will show as a fail otherwise it would be a pass. The pass/fail criteria will be determined once the unit testing has been performed.
 
-**6.0 Testing Tasks**
+**6.0 Intergration Testing Tasks**
 
-Test Cases for Registration Page -Username and password are mandatory fields -Required and optional fields of the form -Radio buttons and checkboxes are placed correctly -The limit of the Password should be alphanumeric, along with special characters -Username and password Validation -User Interface should be perfect and user friendly
+Integration Test Cases differ from other test cases in that they concentrate on the interfaces and data/information flow across components. Priority should be given to integrating links over unit functions that have already been tested. Integration Test Cases Examples for the following scenario: The application comprises three modules: 'Login Page,' 'Landing Page,' and 'Pagination,' each of which is logically integrated.
 
-Test Cases for Login Page -User Interface, to check all the text boxes and buttons -Required Fields where it can be verified by not filling any data -User Login, when passing a correct username and invalid password -User Login to check if the password is entered in encrypted
+ITest Cases for Registration Page -Username and password are mandatory fields -Required and optional fields of the form -Radio buttons and checkboxes are placed correctly -The limit of the Password should be alphanumeric, along with special characters -Username and password Validation -User Interface should be perfect and user friendly
 
-Test Cases for Dashboard Page -Able to view the users name on the dashboard -Able to see and exit or logout of the dashboard -A message saying successfully logged in
+ITest Cases for Login Page -User Interface, to check all the text boxes and buttons -Required Fields where it can be verified by not filling any data -User Login, when passing a correct username and invalid password -User Login to check if the password is entered in encrypted
 
-Test Cases for Settings Page – User should be able to select the news categories which he/she wants to view and those settings should be saved successfully so that even when the user logs out and signs back in, the settings are still intact.
+ITest Cases for Dashboard Page -Able to view the users name on the dashboard -Able to see and exit or logout of the dashboard -A message saying successfully logged in
 
-Test Cases for Landing page – User should be able to view news from the &quot;General&quot; category.
+ITest Cases for Settings Page – User should be able to select the news categories which he/she wants to view and those settings should be saved successfully so that even when the user logs out and signs back in, the settings are still intact.
 
-Test Cases to check if the user id able to refresh the list of articles.
+ITest Cases for Landing page – User should be able to view news from the &quot;General&quot; category.
+
+ITest Cases to check if the user id able to refresh the list of articles.
 
 **7.0 Responsibilities**
 
